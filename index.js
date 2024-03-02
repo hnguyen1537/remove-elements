@@ -20,7 +20,11 @@ const elements = prompt(
  * For example: if arr = [1, 2, 3] and elements = [1, 3], it
  * should return [2].
  */
-const result = undefined;
+
+let newArray = arr.filter(element => !elements.includes(element));
+const result = newArray;
+
+
 
 console.log(result);
 
